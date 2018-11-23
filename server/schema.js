@@ -36,8 +36,7 @@ const MissionType = new GraphQLObjectType({
   name: "Mission",
   fields: () => ({
     mission_name: { type: GraphQLString },
-    mission_id: { type: GraphQLString },
-    payload_ids: { type: GraphQLString }
+    mission_id: { type: GraphQLString }
   })
 });
 
